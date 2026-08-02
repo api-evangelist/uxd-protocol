@@ -1,9 +1,25 @@
 aid: uxd-protocol
 name: UXD Protocol
-description: 'UXD Protocol is a company surfaced as a portfolio company of multicoin-capital and added
-  to the API Evangelist network as a stub for enrichment. Sector: crypto-web3. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'UXD Protocol is a decentralized stablecoin protocol built on Solana,
+  operated by Soteria FZCO, whose UXD token is backed 100% by an Asset Liability
+  Management Module that deploys collateral into delta-neutral positions, on-chain
+  lending, and real-world assets. The protocol is governed by the UXP token, is
+  documented on GitBook, publishes six third-party security audits and a self-run
+  bug bounty, and ships an open-source Solana program with a TypeScript client on
+  npm and a Rust CPI client on crates.io. Backed by Multicoin Capital.'
 url: https://raw.githubusercontent.com/api-evangelist/uxd-protocol/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://3272050346-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/spaces%2F-Mj8VWsobdvjhMutae2g%2Favatar-1631248953660.png?generation=1631248954484277&alt=media
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Crypto Web3
+- Stablecoins
+- DeFi
+- Solana
+- Blockchain
+- Digital Assets
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +46,32 @@ maintainers:
 common:
 - type: Website
   url: https://uxd.fi
+- type: Documentation
+  url: https://docs.uxd.fi/uxdprotocol
+- type: Blog
+  url: https://uxdprotocol.medium.com/
+- type: GitHubOrganization
+  url: https://github.com/UXDProtocol
+- type: Support
+  url: https://discord.gg/CAuFvvd5qw
+- type: TermsOfService
+  url: https://terms.uxd.fi/
+- type: LLMsTxt
+  url: llms/uxd-protocol-llms.txt
+- type: Packages
+  url: packages/uxd-protocol-packages.yml
+- type: SDKs
+  url: packages/uxd-protocol-packages.yml
+- type: WellKnown
+  url: well-known/uxd-protocol-well-known.yml
+- type: DomainSecurity
+  url: security/uxd-protocol-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/uxd-protocol-vulnerability-disclosure.yml
+- type: Security
+  url: https://docs.uxd.fi/uxdprotocol/resources/bug-bounty
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1

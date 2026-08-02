@@ -1,0 +1,16 @@
+generated: '2026-07-21'
+method: searched
+host: https://uxd.fi
+note: uxd.fi is a single-page app whose server returns HTTP 200 with the SPA HTML
+  shell for every path (verified against a bogus path), so 200 responses below do
+  not indicate the document exists. No genuine /.well-known/ documents were found.
+  The GitBook docs host publishes a real llms.txt (captured in llms/).
+documents:
+  - path: /.well-known/security.txt
+    status: 200
+    valid: false
+    note: SPA catch-all HTML shell, not an RFC 9116 security.txt
+  - path: /llms.txt
+    status: 200
+    valid: false
+    note: SPA catch-all HTML shell; real llms.txt lives at https://docs.uxd.fi/uxdprotocol/llms.txt
